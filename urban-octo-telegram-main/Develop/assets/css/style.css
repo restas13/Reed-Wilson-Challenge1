@@ -1,13 +1,19 @@
+/* Applies the standard formatting to all components*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Gives the body component a white background color*/
 body {
     background-color: #d9dcd6;
 }
 
+heading, mainImage, sEngine {
+    display: block;
+}
+/* Sets the headers text formatting and styling*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,16 +21,19 @@ body {
     color: #ffffff;
 }
 
+/* Formats headers "Horiseon" text*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* changes the "seo" text*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+
+.header headlist {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +41,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header headlist ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header headlist ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -58,6 +67,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+
 
 .float-left {
     float: left;
