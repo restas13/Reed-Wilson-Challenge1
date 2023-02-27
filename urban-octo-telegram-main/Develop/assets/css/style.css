@@ -10,7 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
-heading, mainImage, sEngine {
+heading, mainImage, sEngine, repManagement, marketing, leadGen {
     display: block;
 }
 /* Sets the headers text formatting and styling*/
